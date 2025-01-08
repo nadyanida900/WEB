@@ -1,0 +1,57 @@
+/* Mengatur style umum */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #e08282, #e99292);
+  color: rgb(253, 193, 193);
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #161101;
+}
+
+/* Section heading */
+h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.hero h1 {
+  color: #080201; /* Warna teks utama */
+}
+
+.hero p {
+  color: #000000; /* Warna teks deskripsi */
+}
+.hero {
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Ganti warna sesuai keinginan */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  margin-bottom: 42px;
+}
+
+.hero h1, .hero p {
+  color: #f8f8f8; /* Ganti warna teks sesuai kebutuhan */
+}
